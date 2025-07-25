@@ -1,0 +1,30 @@
+{
+  "name": "internet-clock",
+  "version": "1.0.0",
+  "description": "Ultimate free online clock with stopwatch, countdown timer, alarm clock, world time zones, and Pomodoro focus timer. The only clock website you'll ever need.",
+  "private": true,
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=8080",
+    "deploy": "docker build -t internet-clock . && docker run -p 80:80 internet-clock"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/internet-clock.git"
+  },
+  "keywords": [
+    "online clock",
+    "digital clock",
+    "stopwatch",
+    "timer",
+    "alarm clock",
+    "world clock",
+    "pomodoro timer",
+    "productivity"
+  ],
+  "author": "Gemini AI",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
