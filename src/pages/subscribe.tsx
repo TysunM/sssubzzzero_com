@@ -12,7 +12,7 @@ import { Progress } from '@/components/ui/progress';
 import { Alert, AlertDescription } from '@/components/ui/alert';
 import { Badge } from '@/components/ui/badge';
 import { Check, Mail, Eye, Search, ArrowRight, Sparkles, Shield, AlertCircle, Link } from 'lucide-react';
-import { apiRequest } from '@/lib/queryClient';
+import { apiFetch } from '@/lib/api';
 
 export default function Subscribe() {
   const { user, isLoading, isAuthenticated } = useAuth();

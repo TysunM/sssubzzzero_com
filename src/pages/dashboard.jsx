@@ -26,9 +26,9 @@ import {
   ArrowRight,
   Zap,
 } from 'lucide-react';
-import { apiClient } from '../lib/api';
-import { useAuth } from '../hooks/useAuth.jsx';
-import Layout from '../components/Layout';
+import { getSubscriptions } from '@/lib/api';
+import { useAuth } from '@/hooks/useAuth';
+import Layout from '@/components/Layout';
 
 const COLORS = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#06b6d4'];
 
